@@ -1,200 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style/style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-<script src="script/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <title>Home</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="intro">
-         <video src="vid/Intro.mp4"  loop    autoplay></video>
-         <div class="intro-content ">
-             <h1 class="display-3 border shadow p-5 text-center bg-white opacity-75 text-uppercase  " > Femme de<span class="bg-primary text-white px-2 ms-2 opacity-50"><strong> Menage </strong></span> | Tunisie</h1>
-             <button class="btn btn-primary p-3 w-100  text-uppercase  " > Cliquer ici</button>
-            </div>
+      <video src="vid/Intro.mp4" loop autoplay></video>
+      <div class="intro-content">
+        <h1
+          class="display-3 border shadow p-5 text-center bg-white opacity-75 text-uppercase"
+        >
+          Femme de<span class="bg-primary text-white px-2 ms-2 opacity-50"
+            ><strong> Menage </strong></span
+          >
+          | Tunisie
+        </h1>
+        <button class="btn btn-primary p-3 w-100 text-uppercase">
+          Cliquer ici
+        </button>
+      </div>
     </div>
     <div class="wrapper">
-        <div class="container-fluid heading bg-dark">
+      <header class="header-area"> 
+       
+          <div class="content container  p-3 shadow w-75 ">
+           <span class="text-primary h5">Bienvenue</span>
+            <h1 class="">Service de menage</h1>
+            <span class="h4 text-white">Notre service de femmes
+              de ménage...
+              libérer votre temps!</span>
+              <div class="mt-3">
+              <a class="btn btn-primary" href="#">Discover</a>
+              </div>
+          </div>
+          <div class="bubbles">
+            <img src="img/bubble.png" alt="">
+            <img src="img/bubble.png" alt="">
+            <img src="img/bubble.png" alt="">
+            <img src="img/bubble.png" alt="">
+            <img src="img/bubble.png" alt="">
+            <img src="img/bubble.png" alt="">
+            <img src="img/bubble.png" alt="">
+          </div>
+       
+    </header>
+      <section class="container my-5 services">
+        <div class="row">
+          <h3 class="h1">Services</h3>
+          <div class="title-span mx-3"></div>
+          <span class="mb-5">
+            We are proving all type of cleaning solutions for every small and
+            big businesses.
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-start align-items-center">
+                  <img class="me-3" src="img/Entypo_e73d(3)_64.png" alt="" />
+                  <h2 class="card-title h5">Nettoyage résidentiel</h2>
+                </div>
+                <p
+                  class="ms-4 border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify"
+                >
+                  nous transporterons tous les déchets de construction ou de
+                  démolition vers des sites d’élimination désignés conformément
+                  à la réglementation gouvernementale. Pour garder les déchets
+                  gérables, nous prendrons également les mesures nécessaires
+                  pour mettre en quarantaine les débris en un seul endroit pour
+                  le transport
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-start align-items-center">
+                  <img
+                    class="me-3"
+                    src="img/Material Icons_e87b(0)_64.png"
+                    alt=""
+                  />
+                  <h2 class="card-title h5">
+                    Nettoyage des cliniques et hopitaux
+                  </h2>
+                </div>
+                <p
+                  class="ms-4 border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify"
+                >
+                  nous transporterons tous les déchets de construction ou de
+                  démolition vers des sites d’élimination désignés conformément
+                  à la réglementation gouvernementale. Pour garder les déchets
+                  gérables, nous prendrons également les mesures nécessaires
+                  pour mettre en quarantaine les débris en un seul endroit pour
+                  le transport
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-start align-items-center">
+                  <img
+                    class="me-3"
+                    src="img/Material Icons_e88a(1)_64.png"
+                    alt=""
+                  />
+                  <h2 class="card-title h5">Nettoyage de bureaux</h2>
+                </div>
+                <p
+                  class="ms-4 border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify"
+                >
+                  nous transporterons tous les déchets de construction ou de
+                  démolition vers des sites d’élimination désignés conformément
+                  à la réglementation gouvernementale. Pour garder les déchets
+                  gérables, nous prendrons également les mesures nécessaires
+                  pour mettre en quarantaine les débris en un seul endroit pour
+                  le transport
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-start align-items-center">
+                  <img class="me-3" src="img/Entypo_d83d(4)_64.png" alt="" />
+                  <h2 class="card-title h5">Ménage residentiel régulier</h2>
+                </div>
+                <p
+                  class="ms-4 border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify"
+                >
+                  nous transporterons tous les déchets de construction ou de
+                  démolition vers des sites d’élimination désignés conformément
+                  à la réglementation gouvernementale. Pour garder les déchets
+                  gérables, nous prendrons également les mesures nécessaires
+                  pour mettre en quarantaine les débris en un seul endroit pour
+                  le transport
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-start align-items-center">
+                  <img class="me-3" src="img/icomoon_e68b(0)_64.png" alt="" />
+                  <h2 class="card-title h5">Nettoyage aprés construction</h2>
+                </div>
+                <p
+                  class="ms-4 border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify"
+                >
+                  nous transporterons tous les déchets de construction ou de
+                  démolition vers des sites d’élimination désignés conformément
+                  à la réglementation gouvernementale. Pour garder les déchets
+                  gérables, nous prendrons également les mesures nécessaires
+                  pour mettre en quarantaine les débris en un seul endroit pour
+                  le transport
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-start align-items-center">
+                  <img
+                    class="me-3"
+                    src="img/FontAwesome_f0c0(2)_64.png"
+                    alt=""
+                  />
+                  <h2 class="card-title h5">Nettoyage résidentiel</h2>
+                </div>
+                <p
+                  class="ms-4 border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify"
+                >
+                  nous transporterons tous les déchets de construction ou de
+                  démolition vers des sites d’élimination désignés conformément
+                  à la réglementation gouvernementale. Pour garder les déchets
+                  gérables, nous prendrons également les mesures nécessaires
+                  pour mettre en quarantaine les débris en un seul endroit pour
+                  le transport
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        </div>
-        <section class="container my-5 services">
-            <div class="row">
-                <h3 class="h1">Services</h3>
-                <span class="title-span  mx-3"></span>
-                <span class="mb-5">
-                    We are proving all type of cleaning solutions for every small and big businesses.
-                </span>
-            </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-start align-items-center">
-                    <img class="me-3" src="img/Entypo_e73d(3)_64.png" alt="" />
-                    <h2 class="card-title h5">Nettoyage résidentiel</h2>
-                  </div>
-                  <p class="ms-4  border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify" >
-                    nous transporterons tous les déchets de construction ou de
-                    démolition vers des sites d’élimination désignés conformément à
-                    la réglementation gouvernementale. Pour garder les déchets
-                    gérables, nous prendrons également les mesures nécessaires pour
-                    mettre en quarantaine les débris en un seul endroit pour le
-                    transport
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-start align-items-center">
-                    <img
-                      class="me-3"
-                      src="img/Material Icons_e87b(0)_64.png"
-                      alt=""
-                    />
-                    <h2 class="card-title h5">
-                      Nettoyage des cliniques et hopitaux
-                    </h2>
-                  </div>
-                  <p class="ms-4  border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify" >
-                    nous transporterons tous les déchets de construction ou de
-                    démolition vers des sites d’élimination désignés conformément à
-                    la réglementation gouvernementale. Pour garder les déchets
-                    gérables, nous prendrons également les mesures nécessaires pour
-                    mettre en quarantaine les débris en un seul endroit pour le
-                    transport
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-start align-items-center">
-                    <img
-                      class="me-3"
-                      src="img/Material Icons_e88a(1)_64.png"
-                      alt=""
-                    />
-                    <h2 class="card-title h5">Nettoyage de bureaux</h2>
-                  </div>
-                  <p class="ms-4  border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify" >
-                    nous transporterons tous les déchets de construction ou de
-                    démolition vers des sites d’élimination désignés conformément à
-                    la réglementation gouvernementale. Pour garder les déchets
-                    gérables, nous prendrons également les mesures nécessaires pour
-                    mettre en quarantaine les débris en un seul endroit pour le
-                    transport
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-start align-items-center">
-                    <img class="me-3" src="img/Entypo_d83d(4)_64.png" alt="" />
-                    <h2 class="card-title h5">Ménage residentiel régulier</h2>
-                  </div>
-                  <p class="ms-4  border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify" >
-                    nous transporterons tous les déchets de construction ou de
-                    démolition vers des sites d’élimination désignés conformément à
-                    la réglementation gouvernementale. Pour garder les déchets
-                    gérables, nous prendrons également les mesures nécessaires pour
-                    mettre en quarantaine les débris en un seul endroit pour le
-                    transport
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-start align-items-center">
-                    <img class="me-3" src="img/icomoon_e68b(0)_64.png" alt="" />
-                    <h2 class="card-title h5">Nettoyage aprés construction</h2>
-                  </div>
-                  <p class="ms-4  border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify" >
-                    nous transporterons tous les déchets de construction ou de
-                    démolition vers des sites d’élimination désignés conformément à
-                    la réglementation gouvernementale. Pour garder les déchets
-                    gérables, nous prendrons également les mesures nécessaires pour
-                    mettre en quarantaine les débris en un seul endroit pour le
-                    transport
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-start align-items-center">
-                    <img class="me-3" src="img/FontAwesome_f0c0(2)_64.png" alt="" />
-                    <h2 class="card-title h5">Nettoyage résidentiel</h2>
-                  </div>
-                  <p class="ms-4  border border-top-0 border-end-0 border-bottom-0 ps-3 border-primary text-justify" >
-                    nous transporterons tous les déchets de construction ou de
-                    démolition vers des sites d’élimination désignés conformément à
-                    la réglementation gouvernementale. Pour garder les déchets
-                    gérables, nous prendrons également les mesures nécessaires pour
-                    mettre en quarantaine les débris en un seul endroit pour le
-                    transport
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="container bg-primary">
+      <section class="container-fluid  header-area-bg">
+        <div class="container py-5 my-5">
           <div
-            class="row d-flex justify-content-center align-content-center align-items-center"
+            class="border shadow row py-5 my-5 d-block justify-content-center align-content-center align-items-center"
           >
-            <div class="col-lg-8 p-4 shadow  bg-white">
-              <span class="display-4">
-                Besoin de plus d'informations?
-              </span>
-              <div class="mt-4">
-                <a class="btn btn-primary" href="#">Nos Services</a>
-                <a class="btn btn-primary" href="#">438-275-6580</a>
-              </div>
+            <div class="display-5 text-white">
+              Vous avez besoin d'un service de nettoyage ? N'hésitez pas à nous
+              appeler
             </div>
-            <div class="col-lg-4">
-              <img src="img/animation_500_kyno9u1l.gif" alt="" />
+            <div>
+              <a class="btn btn-dark align-self-center mt-4 p-2 w-50" href="#"
+                >+216 71 00 00 00</a
+              >
             </div>
           </div>
-        
         </div>
-        <div class="container mt-5">
-            <div class="row">
-                <h3 class="h1">Our Process</h3>
-                <span class="title-span  mx-3"></span>
-                <span class="mb-5">
-                    Get amazing cleaning in 4 simple steps
-                </span>
-            </div>
-            <div class="row">
-    
-            </div>
+      </section>
+      <section class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="h1">A propos de nous</h3>
+            <div class="title-span "></div>
+            <span class="mb-5"> Le nettoyage c'est notre spécialité </span>
+            <p class="text-justify a-propos mt-3">
+              Notre société de nettoyage est dans une logique constante
+              d’amélioration de qualité de service car elle est soucieuse
+              d’œuvrer pour ravir ses clients. Nous admettons plusieurs points
+              forts qui nous permettent de répondre à tous les besoins de nos
+              clients: nos compétences, notre rigueur de gestion, notre
+              organisation et réactivité. Demandez l’aide de nos spécialistes
+              qualifiés pour réaliser de manière régulière ou ponctuelle
+              l’entretien et le nettoyage de vos locaux. Ils peuvent aussi
+              intervenir auprès des professionnels du secteur industriel pour
+              mener à bien des missions de nettoyage technique. Notre entreprise
+              de nettoyage est en recherche permanente de nouvelles techniques
+              et nouveaux produits s’inscrivant dans une démarche globale
+              respectueuse de l’environnement pour satisfaire nos clients. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit. Culpa aliquid
+              a temporibus ea veniam iste placeat odio non. Obcaecati cumque
+              minus, fugiat illo a dolorem excepturi voluptatibus
+              necessitatibus? Natus, doloribus!
+            </p>
+          </div>
+
+          <div class="col-lg-6 a-propos-img">
+            <img src="img/a propos.gif" alt="" />
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-6 a-propos-img">
+            <img src="img/a propos 2.gif" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <h3 class="h1">A propos de nous</h3>
+            <div class="title-span "></div>
+            <span class="mb-5"> Le nettoyage c'est notre spécialité </span>
+            <p class="text-justify a-propos mt-3">
+              Notre société de nettoyage est dans une logique constante
+              d’amélioration de qualité de service car elle est soucieuse
+              d’œuvrer pour ravir ses clients. Nous admettons plusieurs points
+              forts qui nous permettent de répondre à tous les besoins de nos
+              clients: nos compétences, notre rigueur de gestion, notre
+              organisation et réactivité. Demandez l’aide de nos spécialistes
+              qualifiés pour réaliser de manière régulière ou ponctuelle
+              l’entretien et le nettoyage de vos locaux. Ils peuvent aussi
+              intervenir auprès des professionnels du secteur industriel pour
+              mener à bien des missions de nettoyage technique. Notre entreprise
+              de nettoyage est en recherche permanente de nouvelles techniques
+              et nouveaux produits s’inscrivant dans une démarche globale
+              respectueuse de l’environnement pour satisfaire nos clients.
+              réaliser de manière régulière ou ponctuelle l’entretien et le
+              nettoyage de vos locaux. Ils peuvent aussi intervenir auprès des
+              professionnels du secteur industriel pour mener à bien des
+              missions de nettoyage technique. Notre entreprise de nettoyage est
+              en recherche permanente de nouvelles techniques et nouveaux
+              produits s’inscrivant dans une démarche globale respectueuse de
+              l’environnement pour satisfaire nos clients.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-3">
+            <div class="card p-3 shadow border-primary">
+              <div class="card-title h5 text-primary">
+                Nettoyage de haute qualité
+              </div>
+              <div>
+                <p>Profitez en toute rapidité de nos prestations efficaces.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3">
+            <div class="card p-3 shadow border-primary">
+              <div class="card-title h5 text-primary">Disponibilité 7 j/7</div>
+              <div>
+                <p>Nos spécialistes sont à votre service à tout moment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <div class="card p-3 shadow border-primary">
+              <div class="card-title h5 text-primary">Prix imbattables</div>
+              <div>
+                <p>Nous offrons pour vous un bon service à prix réduits.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <div class="card p-3 shadow border-primary">
+              <div class="card-title h5 text-primary">
+                Véritable savoir-faire
+              </div>
+              <div>
+                <p>
+                  Contactez-nous ! Nous sommes les meilleurs dans ce domaine !
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <div class="card p-3 shadow border-primary">
+              <div class="card-title h5 text-primary">Intervention rapide</div>
+              <div>
+                <p>
+                  Nous intervenons dans les plus brefs délais pour satisfaire
+                  nos clients.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3">
+            <div class="card p-3 shadow border-primary">
+              <div class="card-title h5 text-primary">
+                Des agents expérimentés
+              </div>
+              <div>
+                <p>
+                  Notre entreprise de nettoyage compte sur une équipe qualifiée
+                  et motivée.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container mt-5 ">
+        <div
+          class="row d-flex justify-content-center align-content-center align-items-center"
+        >
+          <div class="col-lg-8 p-4 shadow bg-white">
+            <span class="display-4"> Demandez votre devis </span>
+            <div class="mt-4"></div>
+            <div>
+              <form action="#">
+                <div class="form-group">
+                  <div class="py-2">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Nom et Prénom"
+                    />
+                  </div>
+                  <div class="py-2">
+                    <input
+                      class="form-control"
+                      type="email"
+                      name=""
+                      id=""
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="py-2">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="GSM"
+                    />
+                  </div>
+                  <div class="py-2">
+                    <select class="form-control" name="" id="">
+                      <option value="Service">Service</option>
+                      <option value="Service">Service</option>
+                      <option value="Service">Service</option>
+                      <option value="Service">Service</option>
+                      <option value="Service">Service</option>
+                      <option value="Service">Service</option>
+                    </select>
+                  </div>
+                  <div class="py-2">
+                    <textarea
+                      class="form-control"
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                  <div class="py-2">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 devis">
+            <img src="img/animation_500_kyno9u1l.gif" alt="" />
+          </div>
+        </div>
+      </div>
+      <footer class="mt-5 container-fluid  text-white">
+        <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-6 col-sm-12 col-md-12">
+            <div>
+              <h4 class="text-white">A Propos</h4>
+              <div class="footer-title"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quaerat, nostrum esse voluptatem a dignissimos quos doloribus
+                dicta, officia, mollitia reiciendis unde deleniti rem molestias
+                voluptate optio nemo expedita temporibus assumenda!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 col-md-12">
+            <div><h4 class="text-white">Nos Services</h4>
+              <div class="footer-title"></div>
+            <ul class="list-unstyled">
+              <li>Service</li>
+              <li>Service</li>
+              <li>Service</li>
+              <li>Service</li>
+              <li>Service</li>
+            </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 col-md-12">
+            <div><h4 class="text-white">Contact</h4>
+              <div class="footer-title"></div>
+              <ul class="list-unstyled">
+                <li>Service</li>
+                <li>Service</li>
+                <li>Service</li>
+                <li>Service</li>
+                <li>Service</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="row  ">
+        <span class="text-white bg-black text-center py-3 h5">Copright Studio Syrine</span>
+     </div>
+      </footer>
     </div>
-</body>
-<script >
-$( "button" ).click(function() {
-  $( ".intro" ).delay(1000).fadeOut( "slow")
-  
-  $( ".wrapper" ).css( "display", "block")
- 
-});
-</script>
+  </body>
+  <script>
+    $("button").click(function () {
+      $(".intro").delay(1000).fadeOut("slow");
+
+      $(".wrapper").css("display", "block");
+    });
+  </script>
 </html>
