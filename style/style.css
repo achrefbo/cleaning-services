@@ -1,0 +1,58 @@
+:root {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.intro {
+  width: 100vw;
+  height: 100vh;
+  
+}
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.intro-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.5;
+  transform: translate(-50%, -50%);
+
+  animation-name: intro-animation;
+  animation-fill-mode: forwards;
+
+  animation-duration: 10s;
+  
+  
+}
+ .wrapper{
+    display: none;
+} 
+
+.heading{
+    width: 100%;
+    height:600px;
+
+
+}
+.title-span{
+    height: 5px;
+    width:15px !important;
+    background: #0E6EFC;
+}
+@keyframes intro-animation {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+ 
+  }
+}
